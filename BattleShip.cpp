@@ -61,6 +61,10 @@ int main(int argc, char **argv) {
 // colocar como parâmetro qual barco posicionar
 void PosicionarBarco(int i, bool flag){
 
+	/*
+	 * Controlar de alguma forma o tabuleiro a ser modificado
+	 * */
+
 	int linha, coluna, limiteLinhaColuna;
 	char pos;
 	bool sinalizador = false;
