@@ -1,13 +1,9 @@
-colocar tabuleiro 1 e 2 
+inserir legenda em tabuleiro normal e visto
 
-mostrar tabuleiro, restringir tabuleiro inimigo, mostrar legenda
+ocultar tabuleiro visto substituindo os barcos por '~'
 
-criar rotina para inserir um barcos dentro da matriz
-(verificar se vai colocar horizontalmente ou verticalmente)
-{
-	colocar descrição do barco a ser colocado
-	perguntar onde colocar o barco (x,y) e se vai ser vertilcalmente ou horizoltalmente
-	inserir o barco
-	verificar se esta tudo certo
-}
+criar classe de jogares
 
+criar função de ataque
+
+criar rotina de posicionar os barcos cada um
