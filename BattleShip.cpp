@@ -431,6 +431,7 @@ void Atacar(bool flag) {
 						acertop1 = true;
 					}
 					else if(Tabuleiro_visto[linha][coluna] == '~' && Tabuleiro_visto_ini == '~'){
+						Tabuleiro_visto_ini[linha][coluna] = '#';
 						std::cout << "Voce Errou!!!";
 						system("pause");
 						acertop1 = false;
@@ -440,12 +441,13 @@ void Atacar(bool flag) {
 				else {
 
 					if(Tabuleiro[linha][coluna] == '$' && Tabuleiro_ini == '~'){
-						Tabuleiro_visto_ini[linha][coluna] = 'X';
+						Tabuleiro_ini[linha][coluna] = 'X';
 						std::cout << "Voce Acertou!!!";
 						system("pause");
 						acertop2 = true;
 					}
 					else if(Tabuleiro[linha][coluna] == '~' && Tabuleiro_ini == '~'){
+						Tabuleiro_ini[linha][coluna] = '#';
 						std::cout << "Voce Errou!!!";
 						system("pause");
 						acertop2 = false;
